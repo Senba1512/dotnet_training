@@ -7,28 +7,28 @@ using System.Threading.Tasks;
 namespace Assignment3
 {
     internal class Marks
-    {  // Data members
-        private int rollNo;
-        private string name;
-        private string studentClass;
-        private string semester;
-        private string branch;
+    {  
+        private int RollNo;
+        private string Name;
+        private string StudentClass;
+        private string Semester;
+        private string Branch;
         private int[] marks = new int[5];
 
-        // Constructor to initialize student details
-        public Marks(int rollNo, string name, string studentClass, string semester, string branch)
+        
+        public Marks(int RollNo, string Name, string StudentClass, string Semester, string Branch)
         {
-            this.rollNo = rollNo;
-            this.name = name;
-            this.studentClass = studentClass;
-            this.semester = semester;
-            this.branch = branch;
+            this.RollNo = RollNo;
+            this.Name = Name;
+            this.StudentClass = StudentClass;
+            this.Semester = Semester;
+            this.Branch = Branch;
         }
 
         
         public void GetMarks()
         {
-            Console.WriteLine("Enter marks for 5 subjects:");
+            Console.WriteLine("Enter marks:");
             for (int i = 0; i < marks.Length; i++)
             {
                 Console.Write($"Subject {i + 1}: ");
@@ -37,17 +37,17 @@ namespace Assignment3
         }
 
         
-        public void DisplayResult()
+        public void Result()
         {
             double total = 0;
-            bool hasFailedSubject = false;
+            bool Fail = false;
 
             
             foreach (int mark in marks)
             {
                 if (mark < 35)
                 {
-                    hasFailedSubject = true;
+                    Fail = true;
                     break;
                 }
                 total += mark;
@@ -55,7 +55,7 @@ namespace Assignment3
 
             double average = total / marks.Length;
 
-            if (hasFailedSubject)
+            if (Fail)
             {
                 Console.WriteLine("Result: Failed (One or more subjects have marks less than 35)");
             }
@@ -70,14 +70,14 @@ namespace Assignment3
         }
 
         
-        public void DisplayData()
+        public void Data()
         {
-            Console.WriteLine("\nStudent Details:");
-            Console.WriteLine($"Roll No: {rollNo}");
-            Console.WriteLine($"Name: {name}");
-            Console.WriteLine($"Class: {studentClass}");
-            Console.WriteLine($"Semester: {semester}");
-            Console.WriteLine($"Branch: {branch}");
+            Console.WriteLine("----------------------Student Details-------------------------");
+            Console.WriteLine($"Roll No: {RollNo}");
+            Console.WriteLine($"Name: {Name}");
+            Console.WriteLine($"Class: {StudentClass}");
+            Console.WriteLine($"Semester: {Semester}");
+            Console.WriteLine($"Branch: {Branch}");
             Console.WriteLine("Marks: " + string.Join(", ", marks));
             Console.Read();
         }
@@ -108,8 +108,8 @@ namespace Assignment3
 
             
             student.GetMarks();
-            student.DisplayResult();
-            student.DisplayData();
+            student.Result();
+            student.Data();
 
         }
     }

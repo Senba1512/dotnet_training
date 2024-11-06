@@ -10,40 +10,40 @@ namespace Assignment3
     {
         class Saledetails
         {
-            private int salesNo;
-            private int productNo;
-            private double price;
-            private DateTime dateOfSale;
-            private int qty;
-            private double totalAmount;
+            private int SalesNo;
+            private int ProductNo;
+            private double Price;
+            private DateTime DateOfSale;
+            private int Qty;
+            private double TotalAmount;
 
           
-            public Saledetails(int salesNo, int productNo, double price, int qty, DateTime dateOfSale)
+            public Saledetails(int SalesNo, int ProductNo, double Price, int Qty, DateTime DateOfSale)
             {
-                this.salesNo = salesNo;
-                this.productNo = productNo;
-                this.price = price;
-                this.qty = qty;
-                this.dateOfSale = dateOfSale;
+                this.SalesNo = SalesNo;
+                this.ProductNo = ProductNo;
+                this.Price = Price;
+                this.Qty = Qty;
+                this.DateOfSale = DateOfSale;
                 Sales(); 
             }
 
            
             public void Sales()
             {
-                totalAmount = qty * price;
+                TotalAmount = Qty * Price;
             }
 
             
             public void ShowData()
             {
-                Console.WriteLine("\nSale Details:");
-                Console.WriteLine($"Sales No: {salesNo}");
-                Console.WriteLine($"Product No: {productNo}");
-                Console.WriteLine($"Price: {price:C}"); 
-                Console.WriteLine($"Quantity: {qty}");
-                Console.WriteLine($"Date of Sale: {dateOfSale:dd/MM/yyyy}");
-                Console.WriteLine($"Total Amount: {totalAmount:C}"); 
+                Console.WriteLine("------------Sale Details------------");
+                Console.WriteLine($"Sales No: {SalesNo}");
+                Console.WriteLine($"Product No: {ProductNo}");
+                Console.WriteLine($"Price: {Price :Rs.}"); 
+                Console.WriteLine($"Quantity: {Qty}");
+                Console.WriteLine($"Date of Sale: {DateOfSale:dd/MM/yyyy}");
+                Console.WriteLine($"Total Amount: {TotalAmount :Rs.}"); 
                 Console.Read();
             }
         }
