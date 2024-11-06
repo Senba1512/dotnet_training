@@ -7,22 +7,16 @@
       "RelativeMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Assignment3||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\assignment3\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\assignment3\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\assignment\\assignment3\\assignment3\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\assignment3\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{915430C9-7C69-4971-B657-5B939C9C9C54}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\marks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,36 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Assignment3",
-              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
-              "RelativeDocumentMoniker": "Assignment3\\Assignment3.csproj",
-              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Assignment3.csproj",
-              "RelativeToolTip": "Assignment3\\Assignment3.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-06T10:54:32.363Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Sales.cs",
               "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Sales.cs",
               "RelativeDocumentMoniker": "Assignment3\\Sales.cs",
-              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Sales.cs*",
-              "RelativeToolTip": "Assignment3\\Sales.cs*",
-              "ViewState": "AgIAADUAAAAAAAAAAAAlwEcAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Sales.cs",
+              "RelativeToolTip": "Assignment3\\Sales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T00:18:16.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Marks.cs",
               "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Marks.cs",
               "RelativeDocumentMoniker": "Assignment3\\Marks.cs",
@@ -69,12 +51,11 @@
               "RelativeToolTip": "Assignment3\\Marks.cs",
               "ViewState": "AgIAAF0AAAAAAAAAAAAQwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T00:00:25.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T00:00:25.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Account.cs",
               "RelativeDocumentMoniker": "Assignment3\\Account.cs",
@@ -82,12 +63,11 @@
               "RelativeToolTip": "Assignment3\\Account.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAAAEoAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T10:15:17.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T10:15:17.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment3\\Assignment3\\Program.cs",
               "RelativeDocumentMoniker": "Assignment3\\Program.cs",
@@ -95,8 +75,7 @@
               "RelativeToolTip": "Assignment3\\Program.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:21:56.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:21:56.116Z"
             }
           ]
         }
