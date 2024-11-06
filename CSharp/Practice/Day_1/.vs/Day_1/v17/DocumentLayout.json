@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Day_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3604B88B-587A-4CD6-BD12-480A5939B3B7}|Day_1\\Day_1.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\day_1\\day_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3604B88B-587A-4CD6-BD12-480A5939B3B7}|Day_1\\Day_1.csproj|solutionrelative:day_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Day_1\\Day_1\\Program.cs",
+              "RelativeDocumentMoniker": "Day_1\\Program.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Day_1\\Day_1\\Program.cs",
+              "RelativeToolTip": "Day_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:49:44.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

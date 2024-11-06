@@ -1,0 +1,2 @@
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day4_training\Day4_training\obj\Debug\Day4_training.csproj.AssemblyReference.cache
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day4_training\Day4_training\obj\Debug\Day4_training.csproj.CoreCompileInputs.cache

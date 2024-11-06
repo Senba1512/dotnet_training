@@ -1,0 +1,7 @@
+C:\Users\senbagamr\Dotnet Training\CSharp\Assignment\Assignment1_Dotnet\Assignment1_Dotnet\obj\Debug\Assignment1_Dotnet.csproj.AssemblyReference.cache
+C:\Users\senbagamr\Dotnet Training\CSharp\Assignment\Assignment1_Dotnet\Assignment1_Dotnet\obj\Debug\Assignment1_Dotnet.csproj.CoreCompileInputs.cache
+C:\Users\senbagamr\Dotnet Training\CSharp\Assignment\Assignment1_Dotnet\Assignment1_Dotnet\bin\Debug\Assignment1_Dotnet.exe.config
+C:\Users\senbagamr\Dotnet Training\CSharp\Assignment\Assignment1_Dotnet\Assignment1_Dotnet\bin\Debug\Assignment1_Dotnet.exe
+C:\Users\senbagamr\Dotnet Training\CSharp\Assignment\Assignment1_Dotnet\Assignment1_Dotnet\bin\Debug\Assignment1_Dotnet.pdb
+C:\Users\senbagamr\Dotnet Training\CSharp\Assignment\Assignment1_Dotnet\Assignment1_Dotnet\obj\Debug\Assignment1_Dotnet.exe
+C:\Users\senbagamr\Dotnet Training\CSharp\Assignment\Assignment1_Dotnet\Assignment1_Dotnet\obj\Debug\Assignment1_Dotnet.pdb

@@ -1,0 +1,7 @@
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day3_Practice\Day3_Practice\bin\Debug\Day3_Practice.exe.config
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day3_Practice\Day3_Practice\bin\Debug\Day3_Practice.exe
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day3_Practice\Day3_Practice\bin\Debug\Day3_Practice.pdb
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day3_Practice\Day3_Practice\obj\Debug\Day3_Practice.csproj.AssemblyReference.cache
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day3_Practice\Day3_Practice\obj\Debug\Day3_Practice.csproj.CoreCompileInputs.cache
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day3_Practice\Day3_Practice\obj\Debug\Day3_Practice.exe
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day3_Practice\Day3_Practice\obj\Debug\Day3_Practice.pdb

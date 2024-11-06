@@ -1,0 +1,7 @@
+C:\Practice\Day5_Dotnet\Day5_Dotnet\bin\Debug\Day5_Dotnet.exe.config
+C:\Practice\Day5_Dotnet\Day5_Dotnet\bin\Debug\Day5_Dotnet.exe
+C:\Practice\Day5_Dotnet\Day5_Dotnet\bin\Debug\Day5_Dotnet.pdb
+C:\Practice\Day5_Dotnet\Day5_Dotnet\obj\Debug\Day5_Dotnet.csproj.AssemblyReference.cache
+C:\Practice\Day5_Dotnet\Day5_Dotnet\obj\Debug\Day5_Dotnet.csproj.CoreCompileInputs.cache
+C:\Practice\Day5_Dotnet\Day5_Dotnet\obj\Debug\Day5_Dotnet.exe
+C:\Practice\Day5_Dotnet\Day5_Dotnet\obj\Debug\Day5_Dotnet.pdb
