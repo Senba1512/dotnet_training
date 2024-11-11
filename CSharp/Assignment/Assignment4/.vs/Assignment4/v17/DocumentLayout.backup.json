@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\assignment\\assignment4\\assignment4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Assignment4||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\assignment4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\assignment4\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\assignment4\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\assignment4\\scholarship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\scholarship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836F4458-9BAC-4B0C-8FCB-91B92798986F}|Assignment4\\Assignment4.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\assignment\\assignment4\\assignment4\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Student.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Student.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Student.cs",
+              "RelativeToolTip": "Assignment4\\Student.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:25:09.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Emp.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Emp.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Emp.cs",
+              "RelativeToolTip": "Assignment4\\Emp.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA6wEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:16:51.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Doctor.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Doctor.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Doctor.cs",
+              "RelativeToolTip": "Assignment4\\Doctor.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvz0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:54:55.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Assignment4",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Assignment4.csproj",
+              "RelativeDocumentMoniker": "Assignment4\\Assignment4.csproj",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Assignment4.csproj",
+              "RelativeToolTip": "Assignment4\\Assignment4.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-10T16:31:28.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Scholarship.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Scholarship.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Scholarship.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Scholarship.cs",
+              "RelativeToolTip": "Assignment4\\Scholarship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:30:13.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Program.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assignment\\Assignment4\\Assignment4\\Program.cs*",
+              "RelativeToolTip": "Assignment4\\Program.cs*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:14:19.055Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

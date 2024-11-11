@@ -1,0 +1,7 @@
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day7_Dotnet\Day7_Dotnet\bin\Debug\Day7_Dotnet.exe.config
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day7_Dotnet\Day7_Dotnet\bin\Debug\Day7_Dotnet.exe
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day7_Dotnet\Day7_Dotnet\bin\Debug\Day7_Dotnet.pdb
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day7_Dotnet\Day7_Dotnet\obj\Debug\Day7_Dotnet.csproj.AssemblyReference.cache
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day7_Dotnet\Day7_Dotnet\obj\Debug\Day7_Dotnet.csproj.CoreCompileInputs.cache
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day7_Dotnet\Day7_Dotnet\obj\Debug\Day7_Dotnet.exe
+C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day7_Dotnet\Day7_Dotnet\obj\Debug\Day7_Dotnet.pdb
