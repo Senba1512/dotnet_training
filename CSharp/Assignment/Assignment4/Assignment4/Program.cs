@@ -20,7 +20,7 @@ namespace Assignment4
         public string AccountNumber { get; private set; }
         public decimal Balance { get; private set; }
 
-public BankAccount(string accountNumber, decimal initialBalance = 0.0m)
+public BankAccount(string accountNumber, decimal initialBalance = 0)
 {
 AccountNumber = accountNumber;
 Balance = initialBalance;
@@ -34,7 +34,7 @@ throw new ArgumentException("Deposit amount must be positive.");
 }
 
 Balance += amount;
-Console.WriteLine($"Deposited {amount:C}. New balance is {Balance:C}.");
+Console.WriteLine($"Deposited {amount}. New balance is {Balance}.");
 }
 
 public void Withdraw(decimal amount)
@@ -50,7 +50,7 @@ throw new InsufficientBalanceException("Insufficient balance to complete the wit
 }
 
 Balance -= amount;
-Console.WriteLine($"Withdrew {amount:C}. New balance is {Balance:C}.");
+Console.WriteLine($"Withdrew {amount}. New balance is {Balance}.");
 }
 
     public decimal CheckBalance()
@@ -66,9 +66,9 @@ public class Program
     {
         try
         {
-            BankAccount account = new BankAccount("12345678", 100.0m);
-            account.Deposit(50.0m);
-            account.Withdraw(200.0m); 
+            BankAccount account = new BankAccount("12345678", 100);
+            account.Deposit(50);
+            account.Withdraw(200); 
         }
         catch (InsufficientBalanceException ex)
         {

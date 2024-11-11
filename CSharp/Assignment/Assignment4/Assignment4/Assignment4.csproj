@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assignment4.AProgram</StartupObject>
+    <StartupObject>Assignment4.Scholar</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
