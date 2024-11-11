@@ -1,7 +1,0 @@
-C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day8\Day8\bin\Debug\Day8.exe.config
-C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day8\Day8\bin\Debug\Day8.exe
-C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day8\Day8\bin\Debug\Day8.pdb
-C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day8\Day8\obj\Debug\Day8.csproj.AssemblyReference.cache
-C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day8\Day8\obj\Debug\Day8.csproj.CoreCompileInputs.cache
-C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day8\Day8\obj\Debug\Day8.exe
-C:\Users\senbagamr\Dotnet Training\CSharp\Practice\Day8\Day8\obj\Debug\Day8.pdb

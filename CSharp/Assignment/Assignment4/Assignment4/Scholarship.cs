@@ -7,49 +7,37 @@ using System.Threading.Tasks;
 namespace Assignment4
 {
     internal class Scholarship
-  
     {
-        
-        public decimal Merit(int marks, decimal fees)
+        public double Merit(int marks, double fees)
         {
-            decimal ScholarshipAmount = 0;
-
+            double scholarshipAmount = 0;
             if (marks >= 70 && marks <= 80)
             {
-                ScholarshipAmount = fees * 0.20m; 
+                scholarshipAmount = 0.2 * fees;
             }
             else if (marks > 80 && marks <= 90)
             {
-                ScholarshipAmount = fees * 0.30m; 
+                scholarshipAmount = 0.3 * fees;
             }
             else if (marks > 90)
             {
-                ScholarshipAmount = fees * 0.50m; 
+                scholarshipAmount = 0.5 * fees;
             }
-
-            return ScholarshipAmount;
+            return scholarshipAmount;
         }
     }
-
-    
-    public class Schlor
+    public class Scholar
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
-            Scholarship Scholar = new Scholarship();
-
-            Console.WriteLine("Enter marks: ");
-            int marks = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Enter fees: ");
-            decimal fees = decimal.Parse(Console.ReadLine());
-
-            decimal ScholarshipAmount = Scholar.Merit(marks, fees);
-            Console.WriteLine($"Scholarship Amount: {ScholarshipAmount}");
-
-            Console.Read();
+            Console.Write("Enter your marks: ");
+            int marks = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your fees: ");
+            double fees = Convert.ToDouble(Console.ReadLine());
+            Scholarship a = new Scholarship();
+            double scholarshipAmount = a.Merit(marks, fees);
+            Console.WriteLine("Scholarship Amount: " + scholarshipAmount);
+            Console.ReadLine();
         }
     }
-
 }
-

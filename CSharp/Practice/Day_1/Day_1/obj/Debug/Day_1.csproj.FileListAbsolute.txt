@@ -1,7 +1,0 @@
-C:\Users\senbagamr\Dotnet Training\CSharp\Day_1\Day_1\bin\Debug\Day_1.exe.config
-C:\Users\senbagamr\Dotnet Training\CSharp\Day_1\Day_1\bin\Debug\Day_1.exe
-C:\Users\senbagamr\Dotnet Training\CSharp\Day_1\Day_1\bin\Debug\Day_1.pdb
-C:\Users\senbagamr\Dotnet Training\CSharp\Day_1\Day_1\obj\Debug\Day_1.csproj.AssemblyReference.cache
-C:\Users\senbagamr\Dotnet Training\CSharp\Day_1\Day_1\obj\Debug\Day_1.csproj.CoreCompileInputs.cache
-C:\Users\senbagamr\Dotnet Training\CSharp\Day_1\Day_1\obj\Debug\Day_1.exe
-C:\Users\senbagamr\Dotnet Training\CSharp\Day_1\Day_1\obj\Debug\Day_1.pdb
