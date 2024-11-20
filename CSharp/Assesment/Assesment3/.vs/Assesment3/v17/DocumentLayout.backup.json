@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\assesment\\assesment3\\assesment3\\fileexists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|solutionrelative:assesment3\\fileexists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\assesment\\assesment3\\assesment3\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|solutionrelative:assesment3\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\assesment\\assesment3\\assesment3\\box_length_breadth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|solutionrelative:assesment3\\box_length_breadth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|c:\\users\\senbagamr\\dotnet training\\csharp\\assesment\\assesment3\\assesment3\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E62CB2-1E70-4C1C-BCD6-4F1680776437}|Assesment3\\Assesment3.csproj|solutionrelative:assesment3\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fileexists.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Fileexists.cs",
+              "RelativeDocumentMoniker": "Assesment3\\Fileexists.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Fileexists.cs",
+              "RelativeToolTip": "Assesment3\\Fileexists.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:21:34.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Score.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Score.cs",
+              "RelativeDocumentMoniker": "Assesment3\\Score.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Score.cs",
+              "RelativeToolTip": "Assesment3\\Score.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:15:05.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Box_length_breadth.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Box_length_breadth.cs",
+              "RelativeDocumentMoniker": "Assesment3\\Box_length_breadth.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Box_length_breadth.cs",
+              "RelativeToolTip": "Assesment3\\Box_length_breadth.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA2wCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:13:45.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Calculator.cs",
+              "RelativeDocumentMoniker": "Assesment3\\Calculator.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\CSharp\\Assesment\\Assesment3\\Assesment3\\Calculator.cs",
+              "RelativeToolTip": "Assesment3\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:46:53.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

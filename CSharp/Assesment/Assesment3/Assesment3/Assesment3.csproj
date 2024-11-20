@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C92896D-66AD-4931-B4B5-A296B758F927}</ProjectGuid>
+    <ProjectGuid>{79E62CB2-1E70-4C1C-BCD6-4F1680776437}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assesment2</RootNamespace>
-    <AssemblyName>Assesment2</AssemblyName>
+    <RootNamespace>Assesment3</RootNamespace>
+    <AssemblyName>Assesment3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assesment2.Product</StartupObject>
+    <StartupObject>Assesment3.Calculator</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exception.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Box_length_breadth.cs" />
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Fileexists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Score.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
