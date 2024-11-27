@@ -9,9 +9,9 @@ MGR_Id int,
 HireDate Date, 
 Sal float,
 Comm int,
-Deptno  int )
+Deptno  int foreign key references Dept(Deptno) )
 
-create  table Dept(Deptno int,
+create  table Dept(Deptno int Primary key,
 Dname varchar(40),
 loc varchar(40))
 
