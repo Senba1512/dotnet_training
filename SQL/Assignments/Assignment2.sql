@@ -102,3 +102,17 @@ select Ename,Sal from Emp where Sal not between 1500 and 2850
 
 select MGR_Id ,count(*) AS Employees from Emp where MGR_Id  is not null group by MGR_Id  having count(*) > 2;
 
+
+--practice
+
+
+
+create or alter proc sp_update ( @Eid int)
+as
+begin
+update Emp set Sal=Sal+ 100  WHERE Sal < 3000 and Empno=@Eid
+select* from Emp
+
+end
+
+sp_update 7844
