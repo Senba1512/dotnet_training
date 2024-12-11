@@ -4,48 +4,36 @@ using System.Data.SqlClient;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        
-        string connString = "Server=ICS-LT-3XTMQ73\\SQLEXPRESS;Database=Assesment3;Trusted_Connection=True;";
-
-        using (SqlConnection connection = new SqlConnection(connString))
+        using (SqlConnection connection = new SqlConnection("Data source = ICS-LT-3XTMQ73\\SQLEXPRESS;Database=Assesment3;Trusted_Connection=True"))
         {
             try
             {
                 connection.Open();
-                Console.WriteLine("Connection opened");
-
-                using (SqlCommand command = new SqlCommand("InsertProduct", connection))
+                using (SqlCommand cmd = new SqlCommand("Insert_ProdDetails", connection))
                 {
-                    command.CommandType = CommandType.StoredProcedure;
-
-
-                    command.Parameters.AddWithValue("@ProductName", "Laptop");
-                    command.Parameters.AddWithValue("@Price", 70000);
-
-                    
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@ProductName", "TV");
+                    cmd.Parameters.AddWithValue("@Price", 40000);
                     SqlParameter productIdParam = new SqlParameter("@GeneratedProductId", SqlDbType.Int)
                     {
                         Direction = ParameterDirection.Output
                     };
-                    command.Parameters.Add(productIdParam);
-
+                    cmd.Parameters.Add(productIdParam);
                     SqlParameter discountedPriceParam = new SqlParameter("@DiscountedPrice", SqlDbType.Decimal)
                     {
+                        Precision = 10,
+                        Scale = 2,
                         Direction = ParameterDirection.Output
                     };
-                    command.Parameters.Add(discountedPriceParam);
-
-                    command.ExecuteNonQuery();
-
-                    
+                    cmd.Parameters.Add(discountedPriceParam);
+                    cmd.ExecuteNonQuery();
                     int generatedProductId = (int)productIdParam.Value;
                     decimal discountedPrice = (decimal)discountedPriceParam.Value;
-
-                   
-                    Console.WriteLine($"Generated Product ID: {generatedProductId}");
+                    Console.WriteLine($"ProductId: {generatedProductId}");
                     Console.WriteLine($"Discounted Price: {discountedPrice}");
+                    Console.ReadKey();
                 }
             }
             catch (Exception ex)

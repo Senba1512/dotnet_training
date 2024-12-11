@@ -53,44 +53,38 @@ select * from course_info
 
 
 ---3
-create table ProductsDetails (
-    ProductId int primary key, 
-    ProductName varchar(50) not null,
-    Price decimal(10, 2) not null,
-    DiscountedPrice as (Price * 0.90) 
+CREATE TABLE Products_Details (
+    ProductId INT IDENTITY(1,1) PRIMARY KEY,  
+    ProductName VARCHAR(55) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    DiscountedPrice AS (Price - (Price * 0.1)) 
 )
- 
-
- 
-create or alter procedure InsertProductDetails
-    @ProductName varchar(50),
+select * from Products_Details
+create proc Insert_ProdDetails
+    @ProductName varchar(55),
     @Price decimal(10, 2),
     @GeneratedProductId int output,
     @DiscountedPrice decimal(10, 2) output
 as
 begin
-    
-    insert into ProductsDetails (ProductName, Price)values (@ProductName, @Price);
-    
-   set @GeneratedProductId = SCOPE_IDENTITY()
-    
-    select @DiscountedPrice = DiscountedPrice
-    from ProductsDetails
-    where ProductId = @GeneratedProductId
+    declare @InsertedProducts table (ProductId int)
+    insert into Products_Details (ProductName, Price)
+    output INSERTED.ProductId into @InsertedProducts
+    values(@ProductName, @Price)
+    select @GeneratedProductId = ProductId FROM @InsertedProducts
+    ser @DiscountedPrice = @Price - (@Price * 0.1)
 end
- 
 
  
-declare @GeneratedProductId int
-declare @DiscountedPrice decimal(10, 2)
 
-EXEC InsertProductDetails
+declare @GeneratedProductId int, @DiscountedPrice decimal(10, 2)
+ 
+exec Insert_ProdDetails
     @ProductName = 'TV',
     @Price = 35000,
-    @GeneratedProductId = @GeneratedProductId output, 
+    @GeneratedProductId = @GeneratedProductId output,
     @DiscountedPrice = @DiscountedPrice output
 
-select @GeneratedProductId as ProductId, @DiscountedPrice as DiscountedPrice
 
  
 
