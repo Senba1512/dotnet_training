@@ -1,0 +1,7 @@
+C:\Users\senbagamr\Dotnet Training\SQL\Assesments\Assesment3\ADO_Sql\ADO_Sql\bin\Debug\ADO_Sql.exe.config
+C:\Users\senbagamr\Dotnet Training\SQL\Assesments\Assesment3\ADO_Sql\ADO_Sql\bin\Debug\ADO_Sql.exe
+C:\Users\senbagamr\Dotnet Training\SQL\Assesments\Assesment3\ADO_Sql\ADO_Sql\bin\Debug\ADO_Sql.pdb
+C:\Users\senbagamr\Dotnet Training\SQL\Assesments\Assesment3\ADO_Sql\ADO_Sql\obj\Debug\ADO_Sql.csproj.AssemblyReference.cache
+C:\Users\senbagamr\Dotnet Training\SQL\Assesments\Assesment3\ADO_Sql\ADO_Sql\obj\Debug\ADO_Sql.csproj.CoreCompileInputs.cache
+C:\Users\senbagamr\Dotnet Training\SQL\Assesments\Assesment3\ADO_Sql\ADO_Sql\obj\Debug\ADO_Sql.exe
+C:\Users\senbagamr\Dotnet Training\SQL\Assesments\Assesment3\ADO_Sql\ADO_Sql\obj\Debug\ADO_Sql.pdb
