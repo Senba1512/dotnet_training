@@ -60,6 +60,7 @@ CREATE TABLE Products_Details (
     DiscountedPrice AS (Price - (Price * 0.1)) 
 )
 select * from Products_Details
+
 create proc Insert_ProdDetails
     @ProductName varchar(55),
     @Price decimal(10, 2),
@@ -72,7 +73,7 @@ begin
     output INSERTED.ProductId into @InsertedProducts
     values(@ProductName, @Price)
     select @GeneratedProductId = ProductId FROM @InsertedProducts
-    ser @DiscountedPrice = @Price - (@Price * 0.1)
+    set @DiscountedPrice = @Price - (@Price * 0.1)
 end
 
  
