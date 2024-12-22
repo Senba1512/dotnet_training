@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|c:\\users\\senbagamr\\dotnet training\\mini project\\railway_reservation\\railway_reservation\\adminoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|solutionrelative:railway_reservation\\adminoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\railway_reservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|solutionrelative:railway_reservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\railway_reservation\\dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|solutionrelative:railway_reservation\\dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\railway_reservation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|solutionrelative:railway_reservation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\railway_reservation\\useractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|solutionrelative:railway_reservation\\useractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\railway_reservation\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F30E89-5144-42FE-BAA6-F0EC4B99E44D}|Railway_Reservation\\Railway_Reservation.csproj|solutionrelative:railway_reservation\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\Register.cs",
+              "RelativeDocumentMoniker": "Railway_Reservation\\Register.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\Register.cs",
+              "RelativeToolTip": "Railway_Reservation\\Register.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:17:13.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserActions.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\UserActions.cs",
+              "RelativeDocumentMoniker": "Railway_Reservation\\UserActions.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\UserActions.cs",
+              "RelativeToolTip": "Railway_Reservation\\UserActions.cs",
+              "ViewState": "AgIAAJABAAAAAAAAAAAQwKcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:22:42.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\Login.cs",
+              "RelativeDocumentMoniker": "Railway_Reservation\\Login.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\Login.cs",
+              "RelativeToolTip": "Railway_Reservation\\Login.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:20:22.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBConnector.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\DBConnector.cs",
+              "RelativeDocumentMoniker": "Railway_Reservation\\DBConnector.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\DBConnector.cs",
+              "RelativeToolTip": "Railway_Reservation\\DBConnector.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:19:02.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\Program.cs",
+              "RelativeDocumentMoniker": "Railway_Reservation\\Program.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\Program.cs",
+              "RelativeToolTip": "Railway_Reservation\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:19:42.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminOperations.cs",
+              "DocumentMoniker": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\AdminOperations.cs",
+              "RelativeDocumentMoniker": "Railway_Reservation\\AdminOperations.cs",
+              "ToolTip": "C:\\Users\\senbagamr\\Dotnet Training\\Mini Project\\Railway_Reservation\\Railway_Reservation\\AdminOperations.cs",
+              "RelativeToolTip": "Railway_Reservation\\AdminOperations.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:27:53.986Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
