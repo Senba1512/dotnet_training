@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
-using System.Text.RegularExpressions; 
+using System.Text.RegularExpressions;
 using System.Web.UI;
 
 namespace LineEndingIssue
 {
     public partial class Validator : Page
     {
-     
+
         protected void btnCheck_Click(object sender, EventArgs e)
         {
-           
+
             string name = txtName.Text;
             string familyName = txtFamilyName.Text;
             string address = txtAddress.Text;
@@ -21,10 +21,10 @@ namespace LineEndingIssue
 
             if (!ValidateInput())
             {
-                return; 
+                return;
             }
 
-           
+
             Session["Name"] = name;
             Session["FamilyName"] = familyName;
             Session["Address"] = address;
@@ -32,16 +32,16 @@ namespace LineEndingIssue
             Session["ZipCode"] = zipCode;
             Session["Phone"] = phone;
             Session["Email"] = email;
-        
+
         }
 
-        
+
         private bool ValidateInput()
         {
-            
+
             lblError.Visible = false;
 
-            
+
             if (txtName.Text == txtFamilyName.Text)
             {
                 lblError.Text = "Name cannot be the same as family name.";
@@ -49,7 +49,7 @@ namespace LineEndingIssue
                 return false;
             }
 
-            
+
             if (txtAddress.Text.Length < 2)
             {
                 lblError.Text = "Address must be at least 2 letters.";
@@ -57,7 +57,7 @@ namespace LineEndingIssue
                 return false;
             }
 
-         
+
             if (txtCity.Text.Length < 2)
             {
                 lblError.Text = "City must be at least 2 letters.";
@@ -66,7 +66,7 @@ namespace LineEndingIssue
             }
 
 
-          
+
             if (txtZipCode.Text.Length != 5 || !txtZipCode.Text.All(char.IsDigit))
             {
                 lblError.Text = "Zip code must be 5 digits.";
@@ -82,7 +82,7 @@ namespace LineEndingIssue
                 return false;
             }
 
-           
+
             string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
             if (!Regex.IsMatch(txtEmail.Text, emailPattern))
             {
@@ -91,7 +91,7 @@ namespace LineEndingIssue
                 return false;
             }
 
-            return true; 
+            return true;
         }
     }
 }
