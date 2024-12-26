@@ -12,18 +12,37 @@ namespace Railway_Reservation
         public void Register()
         {
             Console.Clear();
-           
-            Console.WriteLine("------------------Register----------------");
-            
-            Console.Write("Enter Username: ");
-            var username = Console.ReadLine();
+            Console.WriteLine("===================================");
+            Console.WriteLine("           Registeration           ");
+            Console.WriteLine("===================================");
 
-            Console.Write("Enter Password: ");
-            var password = Console.ReadLine();
+            string username = string.Empty;
+            string password = string.Empty;
 
            
+            while (string.IsNullOrEmpty(username))
+            {
+                Console.Write("Enter Username: ");
+                username = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(username))
+                {
+                    Console.WriteLine("Username cannot be empty. Please enter a valid username.");
+                }
+            }
+
+            while (string.IsNullOrEmpty(password))
+            {
+                Console.Write("Enter Password: ");
+                password = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(password))
+                {
+                    Console.WriteLine("Password cannot be empty. Please enter a valid password.");
+                }
+            }
+
             string role;
-            
             while (true)
             {
                 Console.Write("Are you registering as an Admin or User? (A/U): ");
@@ -35,7 +54,7 @@ namespace Railway_Reservation
                 }
                 else
                 {
-                    Console.WriteLine("Please enter a valid role (A for Admin, U for User).");
+                    Console.WriteLine("Please enter a valid role (A for Admin, U for User)");
                 }
             }
            
@@ -59,8 +78,6 @@ namespace Railway_Reservation
                     Console.ReadLine();
                     return; 
                 }
-
-               
                 string insertQuery = role == "A" ?
                     "INSERT INTO Admins (Username, Password) VALUES (@Username, @Password)" :
                     "INSERT INTO Users (Username, Password) VALUES (@Username, @Password)";

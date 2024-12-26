@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Railway_Reservation
 {
-    public static class UserOperations
+    public  class UserOperations
     {
         public static void UserAction(int userId)
         {
@@ -396,7 +396,10 @@ namespace Railway_Reservation
 
                         foreach (DataRow row in table.Rows)
                         {
-                            Console.WriteLine($"Booking ID: {row["BookingId"]}, Train No: {row["Tno"]}, Seats: {row["NumberOfSeats"]}, Date: {row["BookingDate"]}");
+                            Console.WriteLine($"Booking ID: {row["BookingId"]}");
+                            Console.WriteLine($" Train No: {row["Tno"]}");
+                            Console.WriteLine($"Seats: {row["NumberOfSeats"]}");
+                            Console.WriteLine($" Date: {row["BookingDate"]}");
                         }
                     }
                     else

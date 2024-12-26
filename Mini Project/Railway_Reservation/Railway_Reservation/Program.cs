@@ -16,7 +16,9 @@ namespace Railway_Reservation
                 try
                 {
                     Console.Clear();
-                    Console.WriteLine("                       Welcome to Railway Reservation                    ");
+                    Console.WriteLine("===================================");
+                    Console.WriteLine("         Railway Reservation       ");
+                    Console.WriteLine("===================================");
                     Console.WriteLine();
                     Console.WriteLine("1. Register");
                     Console.WriteLine("2. Login");

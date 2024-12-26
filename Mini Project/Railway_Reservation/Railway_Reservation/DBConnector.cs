@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Railway_Reservation
 {
-    public static class DBConnector
+    public  class DBConnector
     {
         public static string connectionString = "Data source = ICS-LT-3XTMQ73\\SQLEXPRESS;Database=RailwayReservationDB;Trusted_Connection=True;";
 
@@ -40,7 +40,6 @@ namespace Railway_Reservation
                     Console.WriteLine($"SQL error occurred: {ex.Message}");
                    
                 }
-
                 return table;
             }
         }
@@ -63,20 +62,16 @@ namespace Railway_Reservation
                 {
                     command.Parameters.AddRange(parameters);
                 }
-
                 try
                 {
                     connection.Open();
                     command.ExecuteNonQuery();
                 }
-               
                 catch (SqlException ex)
                 {
                     Console.WriteLine($"Invalid operation error: {ex.Message}");
-                }
-                
+                }       
             }
         }
-
     }
 }

@@ -12,12 +12,33 @@ namespace Railway_Reservation
         public   void Login()
         {
             Console.Clear();
-            Console.WriteLine("-----------------------Login------------------------------");
-            Console.Write("Enter Username: ");
-            var username = Console.ReadLine();
+            Console.WriteLine("===================================");
+            Console.WriteLine("          Admin/User Login         ");
+            Console.WriteLine("===================================");
+            string username = string.Empty;
+            string password = string.Empty;
 
-            Console.Write("Enter Password: ");
-            var password = Console.ReadLine();
+            while (string.IsNullOrEmpty(username))
+            {
+                Console.Write("Enter Username: ");
+                username = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(username))
+                {
+                    Console.WriteLine("Username cannot be empty. Please enter a valid username.");
+                }
+            }
+
+            while (string.IsNullOrEmpty(password))
+            {
+                Console.Write("Enter Password: ");
+                password = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(password))
+                {
+                    Console.WriteLine("Password cannot be empty. Please enter a valid password.");
+                }
+            }
 
             string role;
             while (true)
