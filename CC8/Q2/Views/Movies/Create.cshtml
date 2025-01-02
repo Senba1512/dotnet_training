@@ -1,0 +1,18 @@
+﻿﻿@model  Question2.Controllers.MoviesController
+
+<h2>Create Movie</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Movie Name:</label>
+        @Html.TextBoxFor(m => m.MovieName)
+    </div>
+    <div>
+        <label>Date of Release:</label>
+        @Html.TextBoxFor(m => m.DateOfRelease)
+    </div>
+    <input type="submit" value="Create" />
+}
