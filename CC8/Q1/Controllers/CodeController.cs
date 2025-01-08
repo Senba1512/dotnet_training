@@ -9,7 +9,7 @@ namespace Question1_DB_First.Controllers
 {
     public class CodeController : Controller
     {
-        private northwindEntities db = new northwindEntities();
+        private northwindContext db = new northwindContext();
 
         public  ActionResult costumersInGermany()
         {
